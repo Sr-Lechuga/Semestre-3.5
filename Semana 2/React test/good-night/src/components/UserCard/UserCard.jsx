@@ -1,8 +1,8 @@
-const UserCard = props => {
+const UserCard = ({nombre,edad}) => {
     return(
         <>
-            <h3>{props.nombre}</h3>
-            <p>{props.edad}</p>
+            <h3>{nombre}</h3>
+            <p>{edad}</p>
         </>
     );
 }
