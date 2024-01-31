@@ -31,11 +31,15 @@
 @keyframes App-logo-spin {
   0% {
     transform: rotate(0deg) scale(1.2);
+    opacity: .2;
   }
   50% {
     transform: rotate(-180deg) scale(.5);
+    opacity: 1;
+    filter: hue-rotate(300deg);
   }
   100%{
     transform: rotate(-360deg) scale(1.2);
+    opacity: .2;
   }
 }
