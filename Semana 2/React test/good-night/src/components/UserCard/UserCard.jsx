@@ -1,4 +1,5 @@
-const UserCard = ({nombre,edad}) => {
+const UserCard = props => {
+    const {nombre,edad} = props;
     return(
         <>
             <h3>{nombre}</h3>
