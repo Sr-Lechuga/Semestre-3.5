@@ -1,8 +1,10 @@
 const UserCard = () => {
+    const nombre = "Sr.Lechuga";
+    const edad = 42
     return(
         <>
-            <h3>Sr.Lechuga</h3>
-            <p>42</p>
+            <h3>{nombre}</h3>
+            <p>{edad}</p>
         </>
     );
 }
