@@ -1,10 +1,8 @@
-const UserCard = () => {
-    const nombre = "Sr.Lechuga";
-    const edad = 42
+const UserCard = props => {
     return(
         <>
-            <h3>{nombre}</h3>
-            <p>{edad}</p>
+            <h3>{props.nombre}</h3>
+            <p>{props.edad}</p>
         </>
     );
 }
