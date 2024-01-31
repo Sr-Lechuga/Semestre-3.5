@@ -36,7 +36,7 @@
   50% {
     transform: rotate(-180deg) scale(.5);
     opacity: 1;
-    filter: hue-rotate(300deg);
+    filter: hue-rotate(360deg);
   }
   100%{
     transform: rotate(-360deg) scale(1.2);
