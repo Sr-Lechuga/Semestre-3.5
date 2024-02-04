@@ -12,14 +12,8 @@ const TableUsers = ({ users }) => {
         </tr>
       </thead>
       <tbody>
-        {users.map(({id, firstName, lastName, age}) => (
-          <TableUsersRow
-            key = {id}
-            id={id}
-            firstName={firstName}
-            lastName={lastName}
-            age={age}
-          />
+        {users.map((user) => (
+          <TableUsersRow key={user.id} {...user} />
         ))}
       </tbody>
     </table>
